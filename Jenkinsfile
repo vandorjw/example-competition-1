@@ -8,7 +8,6 @@ node {
        }
    }
     catch (err) {
-        echo 'failure :('
         currentBuild.result = "FAILURE"
         throw err
     }
